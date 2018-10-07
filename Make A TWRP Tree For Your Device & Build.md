@@ -294,3 +294,5 @@
   - [x] Repack
   - [x] Flash!
   - [x] Now, it will definitely work
+- If the Recovery starts Upside-Down,
+  - [x] Edit BoardConfig.mk and insert the line `BOARD_HAS_FLIPPED_SCREEN := true` before the `include` part (last line), And Rebuild.
